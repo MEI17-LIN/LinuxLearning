@@ -22,7 +22,7 @@ int main(int argc, char **argv)
 
     lseek(fd,5LL*1024LL*1024LL*1024LL-1LL , SEEK_SET);
 
-    //printf("%d\n",write(fd, "\0",1));    
+    printf("%d\n",write(fd, "\0",1));    
 
 
     close(fd);
